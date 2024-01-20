@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Col, Container, Row } from "react-bootstrap";
+import imgIdphoto from "./image.jpg";
 
 function App() {
   return (
@@ -43,10 +44,7 @@ function App() {
         <Container>
           <Row className="about-me">
             <Col xs={12} md={3}>
-              <img
-                src="https://file.notion.so/f/f/02447387-15b2-4ab2-9ce1-211b86ea7555/b286a320-00d1-4d67-a5c6-b70f926cae5b/Untitled.jpeg?id=ea9b74fe-7dec-4a9c-bb38-ec301dd4ae60&table=block&spaceId=02447387-15b2-4ab2-9ce1-211b86ea7555&expirationTimestamp=1705737600000&signature=q2lw2Kjqtsw0F1peGv5eIGxkjRRgN6OjseI0QiyD2v8&downloadName=Untitled.jpeg"
-                style={{ width: "170px" }}
-              />
+              <img src={imgIdphoto} style={{ width: "170px" }} />
             </Col>
             <Col xs={12} md={9} className="aboutme-text">
               <div className="aboutme-text-mb">
