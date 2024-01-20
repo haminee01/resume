@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.mg {
+  margin: 100px 250px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar-contact {
+  direction: rtl;
+}
+.navbar-right {
+  display: flex;
+}
+.navbar-a {
+  margin-bottom: 15px;
+}
+
+.font {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  border-bottom: dashed 2px #cccccc;
+}
+.about-me {
+  display: flex;
+  margin-top: 30px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+mark {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #fff;
+  background-color: #333;
+  border-radius: 3px;
+}
+.aboutme-text-mb {
+  margin-bottom: 10px;
+}
+.details {
+  width: 25%;
+}
+.table {
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.navbar-a:hover .image {
+  opacity: 0.3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hnm-router {
+  margin-top: 10px;
+}
+.netflix-clone {
+  color: gray;
+  font-size: large;
 }
